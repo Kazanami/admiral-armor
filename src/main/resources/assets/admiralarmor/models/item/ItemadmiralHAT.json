@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-      "layer0": "admiralarmor:items/depth_admiral_hat"
+      "layer0": "admiralarmor:items/admiral_Hat"
   }
 }

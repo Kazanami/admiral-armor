@@ -13,11 +13,15 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class costume_admiral {
 
     public static Item ADMIRAL_HAT;
+    public static Item DEPTH_ADMIRAL_HAT;
 
     public static void init(){
         //アイテムインスタンス登録
         ADMIRAL_HAT = registerItem(new ItemAdmiralHat(1, EntityEquipmentSlot.HEAD), "ItemadmiralHAT")
         .setUnlocalizedName("admiral_Hat");
+
+        DEPTH_ADMIRAL_HAT = registerItem(new ItemAdmiralHat(1, EntityEquipmentSlot.HEAD), "Item_DepthadmiralHAT")
+                .setUnlocalizedName("Depth_admiral_Hat");
 
     }
 
@@ -34,6 +38,7 @@ public class costume_admiral {
     public static void registerRenders() {
         //アイテムモデル登録
         registerRender(ADMIRAL_HAT);
+        registerRender(DEPTH_ADMIRAL_HAT);
     }
 
     public static void registerRender(Item item) {

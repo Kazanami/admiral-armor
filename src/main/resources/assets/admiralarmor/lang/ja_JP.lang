@@ -1,5 +1,6 @@
 #Armor
-item.admiral_Hat.name=深海提督ノ帽子
+item.admiral_Hat.name=鎮守府提督帽子
+item.Depth_admiral_Hat.name=深海提督帽子
 
 #Tab
 itemGroup.tabAdmiralArmor=提督コスチューム
